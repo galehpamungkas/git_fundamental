@@ -1,11 +1,14 @@
 # APA ITU GIT
     git adalah salah satu tool yang sering digunakan dalam projct pengembangan software
 
-    mengetahui perintah dasar CLI
-    ```
+    - mengetahui perintah dasar CLI
+    
     ls = list
+    ```
+    ls
+    ```
 
-    cd = change directory (untuk masuk ke suatu direktori yang kita mau)
+    - cd = change directory (untuk masuk ke suatu direktori yang kita mau)
 
         masuk ke direktori
             ```
@@ -21,14 +24,13 @@
             ```
             cd
             ```
-    ```
 
-    pwd = print working direktori (untuk mengetahui di mana kita berada)
+    - pwd = print working direktori (untuk mengetahui di mana kita berada)
         ```
         pwd
         ```
 
-    touch = membuat file
+    - touch = membuat file
         ```
         touch coba.txt (usahakan disertai dengan menggunakan extensi agar mudah dibaca)
         ```
@@ -84,3 +86,34 @@
             </body>
         </html>
         ```
+
+    setelah selesai kemudian buka terminal dan masuk ke dalam folder kita
+    ```
+    cd folder
+    ```
+
+    setelah itu kita inisialisasi folder yang akan kita git
+    ```
+    git init
+    ```
+
+    setelah itu kita git add untuk bisa memasukan file kita kedalam repository  / ruang penyimpanan lokal
+    ```
+    git add <nama file>
+    ```
+    atau untuk langsung bisa memasukan banyak file dengan
+    ```
+    git add .
+    ```
+
+    untuk mengetahui status dari file kita apakah sudah ke add belum dengan cara
+    ```
+    git status
+    ```
+    apabila berwarna hijau berrti sudah ke add kedalam tepo lokal apabila merah berarti belum ke add kedalam repo lokal
+
+
+    kemudian git commit untuk memberikan komentar di file kita agar ita tahu kenapa file kita di git
+    ```
+    git commit -m "<nama coment>"
+    ```
