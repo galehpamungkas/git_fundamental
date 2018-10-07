@@ -1,11 +1,12 @@
 # APA ITU GIT
     git adalah salah satu tool yang sering digunakan dalam projct pengembangan software
 
-- mengetahui perintah dasar CLI
+    mengetahui perintah dasar CLI
+    ```
     ls = list
+
     cd = change directory (untuk masuk ke suatu direktori yang kita mau)
 
-        ```
         masuk ke direktori
             ```
             cd Document/
@@ -20,7 +21,7 @@
             ```
             cd
             ```
-        ```
+    ```
 
     pwd = print working direktori (untuk mengetahui di mana kita berada)
         ```
@@ -54,4 +55,32 @@
      https://github.com/
     ```
 
-    
+    jika sudah  membuat akun kemudian membuat folder atau direktori yang kita mau untuk di kirim ke git
+    ```
+    mkdir coba
+    ```
+
+    kemudian masuk ke dalam folder direktorinya dan membuat sebuah file bebas, contoh
+    ```
+    cd coba
+    ```
+    ```
+    touch coba .html
+    ```
+
+    kemudian buka text editor untuk mengedit file 
+    ```
+    coba.html
+    ```
+
+    edit isi dari file tersebut dengan contoh :
+        ```
+        <html>
+            <head>
+                <tittle>HAI TAYO</title>
+            </head>
+            <body>
+                <h1>Hai Tayo</h1>
+            </body>
+        </html>
+        ```
