@@ -4,10 +4,10 @@ git adalah salah satu tool yang sering digunakan dalam projct pengembangan softw
 
 - mengetahui perintah dasar CLI
 
-    ls = list
-    ```
-    ls
-    ```
+    - ls = list
+        ```
+        ls
+        ```
 
     - cd = change directory (untuk masuk ke suatu direktori yang kita mau)
 
@@ -145,24 +145,24 @@ keunggulan git salah satuya adalah kita bisa berkontribusi pada repo orang atau 
 
 - kita clone terlebih dahulu repo orang lain
     ```git
-        git clone https://github.com/<repo yang ingin di clone>
+    git clone https://github.com/<repo yang ingin di clone>
     ```
 
 - setelah kita clone kita update project tersebut dengan
     ```
-        git pull https://github.com/<repo yang mau di update>
+    git pull https://github.com/<repo yang mau di update>
     ```
 
 - setelah di update kita push ke dalam repo kita supaya bisa menjadi repo milik kita sendiri
     ```git
-        git push -u origin master
+    git push -u origin master
     ```
 
     ```
     -> jika kita ingin salah melakukan pengeditan pada file pull kita, kita tidak perlu kawatir, kita tinggal pull lagi repo tadi <-
         -> dengan git pull
         ```
-            git pull https://github.com/<repo yang tadi untuk di update> <-
+        git pull https://github.com/<repo yang tadi untuk di update> <-
         ```
     ```
 
@@ -170,18 +170,20 @@ keunggulan git salah satuya adalah kita bisa berkontribusi pada repo orang atau 
 
 - jika sudah kita add dan kita commit file kita tadi untuk bisa di kirim ke github
     ```
-        git add <nama file> && git commit -m "nama coment"
+    git add <nama file> && git commit -m "nama coment"
     ```
 
 - jika sudah ki pindah ke menu pull request
+    >!! untuk pull request kita lakukan pada repo kita sendiri bukan pada repo orang lain !!
+    
 - jika sudah di klick new pull request kita tinggal tunggu sampai si pemilik project supaya bisa di terima pull request kita
 
 - jika sudah kita update lagi repo yang baru
     ```
-        git pull https://github.com/<repo tujuan>
+    git pull https://github.com/<repo tujuan>
     ```
 
 - setelah itu kita push kembali ke repo kita
     ```
-        git push -u origin master
+    git push -u origin master
     ```
