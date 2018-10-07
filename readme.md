@@ -8,13 +8,24 @@ APA ITU GIT
             ```
             cd Document/
             ```
-        kembali ke direktori sebelumnya
 
+        kembali ke direktori sebelumnya
             ```
             cd ../
             ```
+
         kembali ke default direktori (langsung masuk ke home)
             ```
             cd
             ```
+    touch = membuat file
+        ```
+        touch coba.txt (usahakan disertai dengan menggunakan extensi agar mudah dibaca)
+        ```
+
+    mkdir = make direktori (untuk membuat direktori baru)
+        ```
+        mkdir folder
+
+        ```
     
